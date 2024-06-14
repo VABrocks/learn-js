@@ -2,31 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web Series Task Simulator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .highlight {
-            color: red;
-            font-weight: bold;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="./style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Web Series Task Simulator</h1>
-    <label for="character">Choose a character:</label>
-    <select id="character">
-        <option value="abhishek">Abhishek (Panchayat)</option>
-        <option value="professor">Professor (Money Heist)</option>
-        <option value="eleven">Eleven (Stranger Things)</option>
-    </select>
-    <button onclick="startTask()">Start Task</button>
-    <div id="task"></div>
-    <div id="message"></div>
-    <script src="script.js"></script>
+    <p id="para1"> Caculations</p>
+    <button onclick='add(8,2)'>add</button>
+    <button onclick='subtract(8,2)'>subtract</button>
+    <button onclick='multiply(8,2)'>multiply</button>
+    <button onclick='divide(8,2)'>divide</button>
 </body>
+<script src="./script.js"></script>
 </html>
